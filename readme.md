@@ -3,7 +3,7 @@
 ## How to use the code?
 1. `Jingnan_prediction_mask.py` is the main file. In this file we can use different input images (by masking different regions) to get different predictions. 
     * The input data is stored as:
-        * `data/grayscale_CM.mha`, gray-scale change maps of 185 patients (some of the patients will be excluded later) are in this file.
+        * [`data/grayscale_CM.mha`](https://drive.google.com/drive/folders/18Z9HjmDn6jpa2nyJZv4CE3qY_7ULCH1e?usp=drive_link), gray-scale change maps of 185 patients (some of the patients will be excluded later) are in this file.
         * `data/all_masks15.mha`, all 8 organs/regions of 185 patients are in this file. The voxel values of different regions is as follows:
             * 'background': 0,
             * 'skin': 1,
@@ -13,7 +13,7 @@
             * 'synovitis': 5,
             * 'tenosynovitis': 6,
             * 'othertissue': 8,
-        * `data/mask_distance_map_tsy_with_spacing.mha` is the distance map of TSY region which is used to threshold the radius of TSY surrounding tendons.
+        * [`data/mask_distance_map_tsy_with_spacing.mha`]((https://drive.google.com/drive/folders/18Z9HjmDn6jpa2nyJZv4CE3qY_7ULCH1e?usp=drive_link)) is the distance map of TSY region which is used to threshold the radius of TSY surrounding tendons.
         * `data/Label.npy` is the RAMRIS scores (I donot like .npy file, I will use .csv file in the future).
         * `data/data_split.json` stored the patient list in each fold after applying multiple fold cross-validation data split.
     * During the running of the data preparation code in this file, some files will be saved (by checking these files we know the data preparation works well), including
