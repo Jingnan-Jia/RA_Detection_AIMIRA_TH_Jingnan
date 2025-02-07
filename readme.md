@@ -1,4 +1,6 @@
 # Treatment determination of RA for AIMIRA dataset
+This is the official code for the project "Detection of Early Treatment Effects from MRI Scans of the Wrist, Hand and Foot of Patients with Arthralgia at Risk for Rheumatoid Arthritis".
+Here we provided the source code and trained weights so that readers can download our data and repeat our results.
 
 ## How to use the code?
 1. `step1.py` is the main file. In this file we can use different input images (by masking different regions) to get different predictions. 
